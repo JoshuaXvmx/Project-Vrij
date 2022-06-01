@@ -358,7 +358,6 @@
 "Assets/Scripts/followPlayer.cs"
 "Assets/Scripts/playerController.cs"
 "Assets/Scripts/PlayerManager.cs"
-"Assets/TVShader.cs"
 -langversion:9.0
 
 /deterministic
