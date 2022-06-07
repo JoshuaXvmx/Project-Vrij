@@ -358,6 +358,7 @@
 "Assets/Scripts/followPlayer.cs"
 "Assets/Scripts/playerController.cs"
 "Assets/Scripts/PlayerManager.cs"
+"Assets/Scripts/TeleporterScript.cs"
 -langversion:9.0
 
 /deterministic
