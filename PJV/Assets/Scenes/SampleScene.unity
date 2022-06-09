@@ -1274,8 +1274,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 070127842872be649a525bd1d4cea62a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  speed: 0
+  health: 100
+  speed: 5
 --- !u!1 &1774845655
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,8 +1486,28 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1358581668493912707, guid: be3ea4ef38b385249a037100df755fb6, type: 3}
+      propertyPath: SnoreDamage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358581668493912707, guid: be3ea4ef38b385249a037100df755fb6, type: 3}
+      propertyPath: SnoreRadius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358581668493912707, guid: be3ea4ef38b385249a037100df755fb6, type: 3}
+      propertyPath: Enemyhandler
+      value: 
+      objectReference: {fileID: 724478915}
+    - target: {fileID: 1358581668493912707, guid: be3ea4ef38b385249a037100df755fb6, type: 3}
+      propertyPath: SnoreCooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358581668493912707, guid: be3ea4ef38b385249a037100df755fb6, type: 3}
       propertyPath: Enemies.m_Bits
       value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6624483548954539313, guid: be3ea4ef38b385249a037100df755fb6, type: 3}
+      propertyPath: m_Radius
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7661200975428907513, guid: be3ea4ef38b385249a037100df755fb6, type: 3}
       propertyPath: m_RootOrder

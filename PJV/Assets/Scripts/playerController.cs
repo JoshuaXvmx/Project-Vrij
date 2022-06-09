@@ -10,7 +10,12 @@ public class playerController : MonoBehaviour
 
     public int SnoreRadius;
     public int SnoreDamage;
-    public SphereCollider SnoreAttack;
+    public int SnoreCooldown;
+    private SphereCollider SnoreAttack;
+
+    public GameObject Enemyhandler;
+ 
+
 
     public LayerMask Enemies;
 
@@ -20,7 +25,7 @@ public class playerController : MonoBehaviour
     {
         Snore();
 
-        yield return new WaitForSeconds(2); //amount of seconds to wait before next damage
+        yield return new WaitForSeconds(SnoreCooldown); //amount of seconds to wait before next damage
     }
 
     void Start()
@@ -45,7 +50,6 @@ public class playerController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Space))
         {
             StopCoroutine(DamageRoutine());
-
         }
     }
 
@@ -56,10 +60,13 @@ public class playerController : MonoBehaviour
 
     void Snore()
     {
+        Enemyhandler.GetComponent<enemySpawner>().UpdateEnemies();
+
         Collider[] EnemiesInRange = Physics.OverlapSphere(this.transform.position, SnoreRadius, Enemies);
         foreach (var hitCollider in EnemiesInRange)
         {
             hitCollider.GetComponentInParent<EnemyScript>().TakeDamage(SnoreDamage);
+
         }
     }
 }

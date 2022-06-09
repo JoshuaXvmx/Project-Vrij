@@ -11,6 +11,8 @@ public class enemySpawner : MonoBehaviour
     public GameObject Spawnpoint03;
     public GameObject CurrentSpawnpoint;
 
+    private List<GameObject> InstancedEnemies = new List<GameObject>();
+
 
 
     public float enemyInterval = 3.5f;
@@ -46,12 +48,24 @@ public class enemySpawner : MonoBehaviour
         }
     }
 
-    private IEnumerator spawnEnemy(float interval, GameObject enemy)
+    private IEnumerator spawnEnemy(float interval, GameObject enemy) //not sure if the list works properly
     {
        
         yield return new WaitForSeconds(interval);
         SpawnpointRandomizer();
         GameObject newEnemy = Instantiate(enemy, CurrentSpawnpoint.transform.position, Quaternion.identity);
+        InstancedEnemies.Add(newEnemy);
         StartCoroutine(spawnEnemy( interval, enemy));
+    }
+
+    public void UpdateEnemies()
+    {
+        foreach(GameObject enemy in InstancedEnemies)
+        {
+          if (enemy.GetComponentInChildren<EnemyScript>().health <= 0)
+            {
+                Destroy(enemy);
+            }
+        }
     }
 }
