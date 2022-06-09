@@ -10,14 +10,12 @@ public class enemyfollow2 : MonoBehaviour
 	Transform target;   // Reference to the player
 	NavMeshAgent agent; // Reference to the NavMeshAgent
 
-	// Use this for initialization
 	void Start()
 	{
 		target = PlayerManager.instance.player.transform;
 		agent = GetComponent<NavMeshAgent>();
 	}
 
-	// Update is called once per frame
 	void Update()
 	{
 		// Distance to the target

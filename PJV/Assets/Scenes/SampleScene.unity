@@ -1262,6 +1262,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4299144365011596766, guid: 2416683462a51ba4a9b3508b6fd662c4, type: 3}
   m_PrefabInstance: {fileID: 2162028263057311344}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1771862616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771862615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070127842872be649a525bd1d4cea62a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  speed: 0
 --- !u!1 &1774845655
 GameObject:
   m_ObjectHideFlags: 0
@@ -1450,6 +1464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 4299144365011596766, guid: 2416683462a51ba4a9b3508b6fd662c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2416683462a51ba4a9b3508b6fd662c4, type: 3}
 --- !u!1001 &2294482922210305306
@@ -1461,11 +1479,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1358581668493912707, guid: be3ea4ef38b385249a037100df755fb6, type: 3}
       propertyPath: speed
-      value: 2.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1358581668493912707, guid: be3ea4ef38b385249a037100df755fb6, type: 3}
       propertyPath: turnSpeed
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358581668493912707, guid: be3ea4ef38b385249a037100df755fb6, type: 3}
+      propertyPath: Enemies.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 7661200975428907513, guid: be3ea4ef38b385249a037100df755fb6, type: 3}
       propertyPath: m_RootOrder

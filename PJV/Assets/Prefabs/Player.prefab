@@ -130,3 +130,9 @@ MonoBehaviour:
   speed: 20
   turnSpeed: 0
   horizontalInput: 0
+  SnoreRadius: 0
+  SnoreDamage: 0
+  SnoreAttack: {fileID: 0}
+  Enemies:
+    serializedVersion: 2
+    m_Bits: 64
