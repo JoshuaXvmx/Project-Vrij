@@ -353,6 +353,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/EnemyScript.cs"
+"Assets/SceneManagement.cs"
 "Assets/Scripts/EnemyFollow.cs"
 "Assets/Scripts/enemyfollow2.cs"
 "Assets/Scripts/enemySpawner.cs"
