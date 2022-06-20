@@ -24,16 +24,19 @@ public class playerController : MonoBehaviour
 
     private bool InCooldown;
     private float StartTime;
-    private float CooldownTime;
+    public float CooldownTime;
     public float CooldownLength;
     private bool Counting;
     private bool ReadyForBigSnore;
+    public float PressTime;
+    public bool showBar;
 
     void Start()
     {
         PlayerAudio.clip = SmallSnore;
         Counting = false;
         CooldownTime = Time.time;
+        PressTime = 0;
     }
 
 
@@ -51,10 +54,12 @@ public class playerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("pressed");
+            PressTime = Time.time;
             PlayerAudio.clip = SmallSnore;
             if (InCooldown == false)
             {
+                Debug.Log("cooldown = false, should work");
+                showBar = true;
                 if (Counting == false)
                 {
                     StartTime = Time.time;
@@ -67,16 +72,16 @@ public class playerController : MonoBehaviour
 
         if(InCooldown == false)
         {
-            if (Input.GetKey(KeyCode.Space) && Time.time - StartTime >= 2f)   //This one doesnt work yet
+            if (Input.GetKey(KeyCode.Space) && Time.time - StartTime >= 1.5f)   //This is the time needed 
             {
-                Debug.Log("ready");
                 ReadyForBigSnore = true;
             }
         }
 
         if (Input.GetKeyUp(KeyCode.Space))
         {
-            if(ReadyForBigSnore == false)
+            showBar = false;
+            if (ReadyForBigSnore == false)
             {
                 Counting = false;
                 PlayerAudio.clip = SmallSnore;
