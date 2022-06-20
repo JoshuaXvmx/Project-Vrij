@@ -58,14 +58,14 @@ public class enemySpawner : MonoBehaviour
         StartCoroutine(spawnEnemy( interval, enemy));
     }
 
-    public void UpdateEnemies()
-    {
-        foreach(GameObject enemy in InstancedEnemies)
-        {
-          if (enemy.GetComponentInChildren<EnemyScript>().health <= 0)
-            {
-                Destroy(enemy);
-            }
-        }
-    }
+  //  public void UpdateEnemies()
+   // {
+   //     foreach(GameObject enemy in InstancedEnemies)
+     //   {
+      //    if (enemy.GetComponentInChildren<EnemyScript>().health <= 0)
+      //      {
+       //         Destroy(enemy);
+       //     }
+      //  }
+  //  }
 }

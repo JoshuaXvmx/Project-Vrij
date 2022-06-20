@@ -12,4 +12,12 @@ public class EnemyScript : MonoBehaviour
         health -= damage;
         Debug.Log("Hit, health =" + health.ToString());
     }
+
+    private void Update()
+    {
+        if (health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }

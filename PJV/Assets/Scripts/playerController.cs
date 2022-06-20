@@ -27,6 +27,7 @@ public class playerController : MonoBehaviour
     private float CooldownTime;
     public float CooldownLength;
     private bool Counting;
+    private bool ReadyForBigSnore;
 
     void Start()
     {
@@ -50,36 +51,45 @@ public class playerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (InCooldown != true)
+            Debug.Log("pressed");
+            PlayerAudio.clip = SmallSnore;
+            if (InCooldown == false)
             {
                 if (Counting == false)
                 {
                     StartTime = Time.time;
                     Counting = true;
                 }
-                
-                
 
-                if(Input.GetKeyDown(KeyCode.Space) && Time.time - StartTime >= 2f)   //This one doesnt work yet
-                {
-                    Debug.Log("BigSnore");
-                    PlayerAudio.clip = BigSnore;
-                    BigSnoreAttack();
-                    CooldownTime = Time.time;
-                    Counting = false;
-                    InCooldown = true;
-                }
             }
 
         }
 
+        if(InCooldown == false)
+        {
+            if (Input.GetKey(KeyCode.Space) && Time.time - StartTime >= 2f)   //This one doesnt work yet
+            {
+                Debug.Log("ready");
+                ReadyForBigSnore = true;
+            }
+        }
+
         if (Input.GetKeyUp(KeyCode.Space))
         {
-            if(InCooldown != true)
+            if(ReadyForBigSnore == false)
             {
                 Counting = false;
                 PlayerAudio.clip = SmallSnore;
                 SmallSnoreAttack();
+            }
+            else
+            {
+                PlayerAudio.clip = BigSnore;
+                BigSnoreAttack();
+                CooldownTime = Time.time;
+                InCooldown = true;
+                Counting = false;
+                ReadyForBigSnore = false;
             }
         }
     }
@@ -92,7 +102,7 @@ public class playerController : MonoBehaviour
     void SmallSnoreAttack()
     {
         PlayerAudio.Play();
-        Enemyhandler.GetComponent<enemySpawner>().UpdateEnemies();
+        //Enemyhandler.GetComponent<enemySpawner>().UpdateEnemies();
 
         Collider[] EnemiesInRange = Physics.OverlapSphere(this.transform.position, SnoreRadius, Enemies);
         foreach (var hitCollider in EnemiesInRange)
@@ -105,7 +115,7 @@ public class playerController : MonoBehaviour
     void BigSnoreAttack()
     {
         PlayerAudio.Play();
-        Enemyhandler.GetComponent<enemySpawner>().UpdateEnemies();
+       // Enemyhandler.GetComponent<enemySpawner>().UpdateEnemies();
 
         Collider[] EnemiesInRange = Physics.OverlapSphere(this.transform.position, SnoreRadius, Enemies);
         foreach (var hitCollider in EnemiesInRange)
