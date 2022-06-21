@@ -131,8 +131,17 @@ MonoBehaviour:
   turnSpeed: 90
   horizontalInput: 0
   SnoreRadius: 5
-  SnoreDamage: 25
+  SmallSnoreDamage: 0
+  BigSnoreDamage: 0
   SnoreCooldown: 2
+  PlayerAudio: {fileID: 0}
+  SmallSnore: {fileID: 0}
+  BigSnore: {fileID: 0}
+  Enemyhandler: {fileID: 0}
   Enemies:
     serializedVersion: 2
     m_Bits: 64
+  CooldownTime: 0
+  CooldownLength: 0
+  PressTime: 0
+  showBar: 0

@@ -23,9 +23,9 @@ public class UIManager : MonoBehaviour
     }
     void Update()
     {
-        currentFill = Time.time - player.GetComponent<playerController>().PressTime;
+        currentFill = Time.time - player.GetComponent<NewPlayerController>().PressTime;
         getFillAmount();
-        if (player.GetComponent<playerController>().showBar == true)
+        if (player.GetComponent<NewPlayerController>().showBar == true)
         {
             Bar.enabled = true;
             BarMask.enabled = true;

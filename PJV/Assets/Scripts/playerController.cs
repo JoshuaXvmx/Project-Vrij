@@ -99,11 +99,6 @@ public class playerController : MonoBehaviour
         }
     }
 
-    void UpdateRadius()
-    {
-        SnoreAttack.radius = SnoreRadius;
-    }
-
     void SmallSnoreAttack()
     {
         PlayerAudio.Play();

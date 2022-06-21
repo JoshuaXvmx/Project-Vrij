@@ -355,6 +355,7 @@
 "Assets/EndOfLevelScript.cs"
 "Assets/EnemyScript.cs"
 "Assets/GateSwitch.cs"
+"Assets/NewPlayerController.cs"
 "Assets/SceneManagement.cs"
 "Assets/Scripts/EnemyFollow.cs"
 "Assets/Scripts/enemyfollow2.cs"
