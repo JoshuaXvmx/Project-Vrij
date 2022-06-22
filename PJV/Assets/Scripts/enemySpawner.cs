@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class enemySpawner : MonoBehaviour
 {
@@ -29,11 +30,15 @@ public class enemySpawner : MonoBehaviour
     private bool inCooldown;
     private bool StartOpen;
 
+    public static int AmountofKills;
+    public TextMeshProUGUI KillScore;
+
     void Start()
     {
         CurrentGate = Gate01;
         inCooldown = false;
         StartOpen = false;
+        AmountofKills = 0;
         StartCoroutine(spawnEnemy(enemyInterval, enemyPrefab));
     }
 
@@ -53,12 +58,13 @@ public class enemySpawner : MonoBehaviour
         {
             OpenGate();
         }
+
+        KillScore.text = AmountofKills.ToString();
     }
 
     private void SpawnpointRandomizer()
     {
         int i = Random.Range(1, 4);
-        Debug.Log(i);
         switch (i) 
         {
             case 1:
@@ -120,14 +126,4 @@ public class enemySpawner : MonoBehaviour
         }
     }
 
-    //  public void UpdateEnemies()
-    // {
-    //     foreach(GameObject enemy in InstancedEnemies)
-    //   {
-    //    if (enemy.GetComponentInChildren<EnemyScript>().health <= 0)
-    //      {
-    //         Destroy(enemy);
-    //     }
-    //  }
-    //  }
 }
