@@ -5,7 +5,6 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
     public int health;
-    public int speed; //shoudl slow down when being snored on, maybe merge this script and followerscript?
     public AudioSource EnemySource;
     public AudioClip HitSound;
 
