@@ -14,13 +14,14 @@ GameObject:
   - component: {fileID: 6624483548954539313}
   - component: {fileID: 933990467630866135}
   - component: {fileID: 1358581668493912707}
+  - component: {fileID: 508084052}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7661200975428907513
 Transform:
   m_ObjectHideFlags: 0
@@ -51,7 +52,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8904652032756845287}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -95,7 +96,7 @@ SphereCollider:
   m_GameObject: {fileID: 8904652032756845287}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -131,17 +132,31 @@ MonoBehaviour:
   turnSpeed: 90
   horizontalInput: 0
   SnoreRadius: 5
-  SmallSnoreDamage: 0
-  BigSnoreDamage: 0
+  SmallSnoreDamage: 10
+  BigSnoreDamage: 50
   SnoreCooldown: 2
   PlayerAudio: {fileID: 0}
-  SmallSnore: {fileID: 0}
-  BigSnore: {fileID: 0}
+  SmallSnore: {fileID: 8300000, guid: db54e08fff018ff49827d8c8c5b11bb9, type: 3}
+  BigSnore: {fileID: 8300000, guid: eb2fa2817ea2a2c459efaa51a66e5513, type: 3}
   Enemyhandler: {fileID: 0}
   Enemies:
     serializedVersion: 2
     m_Bits: 64
   CooldownTime: 0
-  CooldownLength: 0
+  CooldownLength: 2.5
   PressTime: 0
   showBar: 0
+--- !u!136 &508084052
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8904652032756845287}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
