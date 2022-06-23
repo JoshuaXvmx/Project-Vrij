@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
     public int health;
+    public int damage;
     public AudioSource EnemySource;
     public AudioClip HitSound;
 

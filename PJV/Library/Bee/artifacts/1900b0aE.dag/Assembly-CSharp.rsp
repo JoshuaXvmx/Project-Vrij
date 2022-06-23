@@ -354,6 +354,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/EndOfLevelScript.cs"
 "Assets/EnemyScript.cs"
+"Assets/GameManagement.cs"
 "Assets/GateSwitch.cs"
 "Assets/NewEnemyMovementScript.cs"
 "Assets/NewPlayerController.cs"

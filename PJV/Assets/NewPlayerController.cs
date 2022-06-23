@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class NewPlayerController : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class NewPlayerController : MonoBehaviour
     public AudioSource PlayerAudio;
     public AudioClip SmallSnore;
     public AudioClip BigSnore;
+    public AudioClip HitSound;
     private SphereCollider SnoreAttack;
 
     public GameObject Enemyhandler;
@@ -39,6 +41,14 @@ public class NewPlayerController : MonoBehaviour
     public float PressTime;
     public bool showBar;
 
+    public int health;
+    public float Hitcooldown;
+    private float HitTime;
+    private bool inHitCooldown;
+
+    public GameObject LoseMenu;
+    public TextMeshProUGUI Timer;
+    public TextMeshProUGUI EnemiesBeaten;
 
     void Start()
     {
@@ -122,6 +132,16 @@ public class NewPlayerController : MonoBehaviour
                 ReadyForBigSnore = false;
             }
         }
+
+        if (Time.time - HitTime >= Hitcooldown)
+        {
+            inHitCooldown = false;
+        }
+
+        if (health <= 0)
+        {
+            LoseLevel();
+        }
     }
 
     void SmallSnoreAttack()
@@ -150,6 +170,31 @@ public class NewPlayerController : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.layer == 6)
+        {
+            if (inHitCooldown == false)
+            {
+                PlayerAudio.clip = HitSound;
+                PlayerAudio.Play();
+                health -= collision.gameObject.GetComponent<EnemyScript>().damage;
+                Debug.Log(health);
+                HitTime = Time.time;
+                inHitCooldown = true;
+            }
+        }
+    }
+    
+   private void LoseLevel()
+    {
+        float EndTime = Time.time;
+        Debug.Log(EndTime);
+        Time.timeScale = 0;
 
+        LoseMenu.SetActive(true);
+        EnemiesBeaten.text = enemySpawner.AmountofKills.ToString();
+        Timer.text = EndTime.ToString();
+    }
 
 }
