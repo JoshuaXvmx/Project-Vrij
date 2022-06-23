@@ -5,8 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagement : MonoBehaviour
 {
-    public void SceneSwitch( string SceneName)
+    private void Start()
+    {
+        ResumeTime();
+    }
+
+    public void SceneSwitch(string SceneName)
     {
         SceneManager.LoadScene(SceneName);
+    }
+
+    public void ResumeTime()
+    {
+        Time.timeScale = 1;
     }
 }

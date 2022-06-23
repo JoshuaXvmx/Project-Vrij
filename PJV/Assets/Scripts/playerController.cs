@@ -12,7 +12,7 @@ public class playerController : MonoBehaviour
     public int SmallSnoreDamage;
     public int BigSnoreDamage;
     public int SnoreCooldown;
-    public AudioSource PlayerAudio;
+    private AudioSource PlayerAudio;
     public AudioClip SmallSnore;
     public AudioClip BigSnore;
     private SphereCollider SnoreAttack;

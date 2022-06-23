@@ -5,18 +5,25 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
     public int health;
-    public int speed; //shoudl slow down when being snored on, maybe merge this script and followerscript?
+    public int damage;
+    public AudioSource EnemySource;
+    public AudioClip HitSound;
 
+    private void Start()
+    {
+        EnemySource.clip = HitSound;
+    }
     public void TakeDamage(int damage)
     {
         health -= damage;
-        Debug.Log("Hit, health =" + health.ToString());
+        EnemySource.Play();
     }
 
     private void Update()
     {
         if (health <= 0)
         {
+            enemySpawner.AmountofKills++;
             Destroy(this.gameObject);
         }
     }
