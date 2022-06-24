@@ -186,6 +186,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: b1305302059df8140be448b4cdd30656, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7dbb9afd8554f474290000471d293342, type: 2}
     - target: {fileID: 919132149155446097, guid: b1305302059df8140be448b4cdd30656, type: 3}
       propertyPath: m_Name
       value: nose_low
@@ -6806,7 +6810,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 1
+  m_FillAmount: 0.8392005
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -10019,7 +10023,7 @@ MonoBehaviour:
   BarMask: {fileID: 1144096400}
   BarFill: {fileID: 2141519120}
   Bar: {fileID: 191629653}
-  currentFill: 2.23527
+  currentFill: 1.2588007
   maxFill: 1.5
 --- !u!4 &1756598763
 Transform:
