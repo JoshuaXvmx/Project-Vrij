@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using EZCameraShake;
 
 public class NewPlayerController : MonoBehaviour
 {
@@ -160,6 +161,7 @@ public class NewPlayerController : MonoBehaviour
     void BigSnoreAttack()
     {
         PlayerAudio.Play();
+        CameraShaker.Instance.ShakeOnce(4f, 4f, .1f, 1f);
         // Enemyhandler.GetComponent<enemySpawner>().UpdateEnemies();
 
         Collider[] EnemiesInRange = Physics.OverlapSphere(this.transform.position, SnoreRadius, Enemies);
