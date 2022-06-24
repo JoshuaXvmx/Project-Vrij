@@ -38,7 +38,7 @@ public class enemySpawner : MonoBehaviour
         switch (i) 
         {
             case 1:
-
+                CurrentSpawnpoint = Spawnpoint01;
                 break;
 
             case 2:

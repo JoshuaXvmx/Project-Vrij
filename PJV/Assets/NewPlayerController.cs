@@ -51,10 +51,19 @@ public class NewPlayerController : MonoBehaviour
     public TextMeshProUGUI Timer;
     public TextMeshProUGUI EnemiesBeaten;
 
+    public GameObject HitPlane;
+    private Vector3 scaleRate = new Vector3(0.01f, 0.01f, 0.01f);
+    private Vector3 MaxScale;
+    private Vector3 MinScale = new Vector3(0.1f, 0.1f, 0.1f);
+    private bool DisplayingHitPlane;
+
     void Start()
     {
+        MaxScale = HitPlane.transform.localScale;
+        DisplayingHitPlane = false;
         PlayerAudio.clip = SmallSnore;
         Counting = false;
+        HitPlane.SetActive(false);
         CooldownTime = Time.time;
         PressTime = 0;
     }
@@ -94,7 +103,6 @@ public class NewPlayerController : MonoBehaviour
             PlayerAudio.clip = SmallSnore;
             if (InCooldown == false)
             {
-                Debug.Log("cooldown = false, should work");
                 showBar = true;
                 if (Counting == false)
                 {
@@ -143,11 +151,26 @@ public class NewPlayerController : MonoBehaviour
         {
             LoseLevel();
         }
+
+        if (DisplayingHitPlane == true)
+        {
+            if (HitPlane.transform.localScale.x < MaxScale.x)
+            {
+                HitPlane.transform.localScale += scaleRate;
+            }
+            else if(HitPlane.transform.localScale.x >= MaxScale.x)
+            {
+                HitPlane.SetActive(false);
+            }
+        }
     }
 
     void SmallSnoreAttack()
     {
         PlayerAudio.Play();
+        HitPlane.transform.localScale = MinScale;
+        HitPlane.SetActive(true);
+        DisplayingHitPlane = true;
         //Enemyhandler.GetComponent<enemySpawner>().UpdateEnemies();
 
         Collider[] EnemiesInRange = Physics.OverlapSphere(this.transform.position, SnoreRadius, Enemies);
@@ -161,6 +184,9 @@ public class NewPlayerController : MonoBehaviour
     void BigSnoreAttack()
     {
         PlayerAudio.Play();
+        HitPlane.transform.localScale = MinScale;
+        HitPlane.SetActive(true);
+        DisplayingHitPlane = true;
         CameraShaker.Instance.ShakeOnce(4f, 4f, .1f, 1f);
         // Enemyhandler.GetComponent<enemySpawner>().UpdateEnemies();
 
@@ -198,5 +224,4 @@ public class NewPlayerController : MonoBehaviour
         EnemiesBeaten.text = enemySpawner.AmountofKills.ToString();
         Timer.text = EndTime.ToString();
     }
-
 }
