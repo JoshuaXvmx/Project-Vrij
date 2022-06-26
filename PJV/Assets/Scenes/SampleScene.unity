@@ -7798,7 +7798,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.32750374
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -11014,7 +11014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 61782328743682473, guid: e958cc8536730914199cb10e97001f1b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.427
+      value: -0.529
       objectReference: {fileID: 0}
     - target: {fileID: 3215820377165695845, guid: e958cc8536730914199cb10e97001f1b, type: 3}
       propertyPath: ExitOrientation
@@ -11123,7 +11123,7 @@ MonoBehaviour:
   BarMask: {fileID: 1144096400}
   BarFill: {fileID: 2141519120}
   Bar: {fileID: 191629653}
-  currentFill: 0.4912556
+  currentFill: 21.50175
   maxFill: 1.5
 --- !u!4 &1756598763
 Transform:

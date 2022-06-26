@@ -1314,4 +1314,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV.exe
+  playerPath: C:/Users/eiseb/Desktop/Project Vrij Build/PJV.exe
