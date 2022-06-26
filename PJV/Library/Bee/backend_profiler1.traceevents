@@ -1,4 +1,5 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+<<<<<<< Updated upstream
 ,{ "pid":12345, "tid":0, "ts":1656245473110013, "dur":1497, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1656245473111518, "dur":34865, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1656245473146444, "dur":36, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -1707,4 +1708,538 @@
 ,{ "pid":12345, "tid":16, "ts":1656245482240849, "dur":178887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":16, "ts":1656245482419736, "dur":242538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1656245482669377, "dur":4240, "ph":"X", "name": "ProfilerWriteOutput" }
+=======
+,{ "pid":12345, "tid":0, "ts":1656246470009871, "dur":1130, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470011006, "dur":75, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1656246470011089, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1656246470011106, "dur":725, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1656246470011865, "dur":590, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470012455, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780522, "dur":275, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780797, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780819, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780822, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780839, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780841, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780848, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780849, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780855, "dur":16, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780871, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780877, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780879, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780884, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780885, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780892, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780893, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780898, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780900, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780928, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780929, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780935, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780937, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780942, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780944, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470780966, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470781000, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470781055, "dur":1896, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1656246470011823, "dur":637, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470012462, "dur":3891, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470016359, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656246470016360, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470016408, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656246470016413, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470017144, "dur":2634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656246470019780, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1656246470019841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470020424, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1656246470021163, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470021210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470021398, "dur":55873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470077312, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470077367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470077643, "dur":58515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470136192, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470136226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470136233, "dur":38982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470175253, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470175307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470175314, "dur":21055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470196404, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470196444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470196450, "dur":32546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470229034, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470229072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470229082, "dur":22725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470251846, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470251883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470251891, "dur":19809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470271738, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470271774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470271781, "dur":39113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470310934, "dur":93047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470403985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470403993, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470405348, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470405408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470405416, "dur":32781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470438237, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470438276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470438284, "dur":42992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470481310, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470481348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656246470481355, "dur":148639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656246470630027, "dur":150500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656246470011995, "dur":495, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656246470012490, "dur":3868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656246470016360, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1656246470016538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656246470077461, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1656246470078476, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470078518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656246470078523, "dur":31906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470110472, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470110508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656246470110514, "dur":24368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470134919, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470134958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656246470134966, "dur":36726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470171734, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470171773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656246470171782, "dur":35104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470206924, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470206965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656246470206972, "dur":23848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470230864, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470230907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656246470230916, "dur":32769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470263725, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470263765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656246470263794, "dur":19462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470283305, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470283349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656246470283355, "dur":41263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470324659, "dur":44486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470369151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656246470369159, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470370840, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470370879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656246470370887, "dur":279125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656246470650047, "dur":130476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470011918, "dur":568, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470012486, "dur":3887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470016373, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1656246470016520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470022675, "dur":54725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1656246470077440, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470077483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470077766, "dur":30202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470108005, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470108047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470108055, "dur":43314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470151413, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470151629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470151713, "dur":54156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470205907, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470205945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470205952, "dur":52703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470258693, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470258730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470258736, "dur":34631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470293403, "dur":69605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470363014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470363022, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470363852, "dur":842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470364717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470364728, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470365525, "dur":244103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470609633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470609642, "dur":2532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656246470612212, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1656246470612249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470612287, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1656246470613305, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1656246470613345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470613352, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1656246470614377, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1656246470614433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470614439, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1656246470615973, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1656246470616008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470616014, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1656246470617468, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1656246470617503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470617510, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1656246470619600, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1656246470619720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470619724, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1656246470620755, "dur":683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1656246470621441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470621449, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1656246470622483, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1656246470622518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656246470622523, "dur":3838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1656246470626394, "dur":154128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470012104, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470012494, "dur":3866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470016361, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1656246470016516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470018994, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1656246470020044, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1656246470020074, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470020078, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1656246470020850, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1656246470020887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470020893, "dur":55914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1656246470076859, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1656246470076918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470077539, "dur":3966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1656246470081542, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470081579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470081587, "dur":27406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470109024, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470109060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470109065, "dur":86292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470195393, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470195434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470195440, "dur":27616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470223101, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470223144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470223150, "dur":24902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470248087, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470248124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470248149, "dur":20735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470268923, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470268964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470268972, "dur":19839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470288847, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470288887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470288895, "dur":22859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470311789, "dur":257820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470569615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470569623, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470570800, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470570840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656246470570848, "dur":181318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656246470752189, "dur":28346, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470012234, "dur":265, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470012499, "dur":3860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470016360, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1656246470016456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470018376, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1656246470019831, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1656246470019870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470020101, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1656246470021274, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470021330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470021411, "dur":55984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470077434, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470077475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470077900, "dur":43555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470121495, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470121581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470121589, "dur":63407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470185036, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470185074, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470185081, "dur":26287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470211405, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470211445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470211452, "dur":56057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470267546, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470267586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470267593, "dur":38641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470306276, "dur":77944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470384226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470384235, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470385373, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470385410, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470385417, "dur":104546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470490002, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470490039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470490047, "dur":122062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656246470612152, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1656246470612269, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470612595, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1656246470613387, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656246470613424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470613429, "dur":8281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656246470621747, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656246470621796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470621805, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656246470622975, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1656246470623011, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470623016, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1656246470623843, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656246470623895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470623900, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656246470624847, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1656246470624946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656246470624952, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1656246470626005, "dur":154515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656246470012342, "dur":159, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656246470012501, "dur":3861, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656246470016362, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1656246470016456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656246470018568, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1656246470019858, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1656246470019902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656246470020111, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1656246470021755, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV.exe" }}
+,{ "pid":12345, "tid":6, "ts":1656246470021791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656246470021795, "dur":56576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV.exe" }}
+,{ "pid":12345, "tid":6, "ts":1656246470078405, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656246470078445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656246470078450, "dur":89962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656246470168450, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656246470168491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656246470168502, "dur":58738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656246470227279, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656246470227321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656246470227349, "dur":25756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656246470253239, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656246470253288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656246470253295, "dur":75760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656246470329095, "dur":43633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656246470372734, "dur":43, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656246470372787, "dur":3909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656246470376731, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656246470376767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656246470376774, "dur":96991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656246470473802, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656246470473843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656246470473851, "dur":196613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656246470670487, "dur":110041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656246470012386, "dur":118, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656246470012504, "dur":3852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656246470016359, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1656246470016529, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656246470077479, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1656246470078263, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470078302, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656246470078307, "dur":29994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470108338, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470108376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656246470108381, "dur":18533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470126961, "dur":130754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470257721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656246470257730, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470258974, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470259019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656246470259026, "dur":24224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470283290, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470283327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656246470283335, "dur":19639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470303012, "dur":98149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470401167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656246470401176, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470402442, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470402482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656246470402490, "dur":77266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470479791, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470479828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656246470479836, "dur":72934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470552808, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470552845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656246470552870, "dur":227604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656246470780498, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1656246470780500, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470012462, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470012462, "dur":3896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470016360, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1656246470016536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470028670, "dur":48777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1656246470077489, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470077528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470077650, "dur":52454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470130140, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470130175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470130182, "dur":34385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470164603, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470164644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470164652, "dur":30192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470194877, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470194912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470194918, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470197172, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470197228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470197234, "dur":49945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470247222, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470247267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470247275, "dur":20363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470267674, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470267711, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470267717, "dur":19082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470286837, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470286890, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470286898, "dur":35702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470322638, "dur":612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470323254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470323262, "dur":5061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470328362, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470329034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470329042, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470331325, "dur":44991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470376319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470376325, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470377443, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470377481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470377487, "dur":147505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470525031, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470525069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470525077, "dur":46732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470571844, "dur":63206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470635055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656246470635064, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656246470636596, "dur":143933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656246470012511, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656246470012512, "dur":3853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656246470016365, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1656246470016455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656246470018079, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1656246470019782, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1656246470019822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656246470020109, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1656246470021715, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1656246470021758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656246470021762, "dur":56153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1656246470077953, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656246470077994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656246470078001, "dur":35122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656246470113162, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656246470113198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656246470113205, "dur":57132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656246470170375, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656246470170418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656246470170425, "dur":52536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656246470223006, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656246470223054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656246470223061, "dur":42776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656246470265875, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656246470265912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656246470265920, "dur":110146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656246470376103, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656246470376140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656246470376148, "dur":83878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656246470460060, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656246470460096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656246470460103, "dur":203634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656246470663761, "dur":116770, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656246470012535, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656246470012535, "dur":3826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656246470016361, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1656246470016459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656246470018421, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1656246470019876, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1656246470019912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656246470020122, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1656246470021595, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470021635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656246470021639, "dur":56155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470077830, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470077911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656246470077966, "dur":30102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470108099, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470108148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656246470108154, "dur":18752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470126959, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470126999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656246470127007, "dur":128449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470255496, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470255548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656246470255557, "dur":27840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470283435, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470283473, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656246470283478, "dur":123932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470407450, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470407486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656246470407494, "dur":99370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470506917, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470506956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656246470506964, "dur":142163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656246470649158, "dur":131366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656246470012554, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656246470012554, "dur":3808, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656246470016363, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1656246470016523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656246470023020, "dur":54384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1656246470077440, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470077482, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656246470077678, "dur":32577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470110292, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470110331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656246470110338, "dur":64638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470175018, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470175056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656246470175063, "dur":19677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470194778, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470194819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656246470194826, "dur":51057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470245921, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470245958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656246470245967, "dur":23171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470269174, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470269210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656246470269215, "dur":41488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470310744, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470310784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656246470310792, "dur":56132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470366961, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470366998, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656246470367006, "dur":95299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470462340, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470462376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656246470462386, "dur":181225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656246470643641, "dur":136885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470012634, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470012635, "dur":3728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470016365, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1656246470016526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470023349, "dur":54302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1656246470077688, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470077728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470078969, "dur":57935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470136938, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470136975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470136980, "dur":94300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470231315, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470231352, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470231357, "dur":98764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470330157, "dur":586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470330747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470330754, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470331584, "dur":600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470332187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470332195, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470332986, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470333603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470333611, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470334393, "dur":21615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470356014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470356023, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470357089, "dur":635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470357727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470357734, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470358663, "dur":22224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470380894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470380903, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470381797, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470381834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470381842, "dur":130482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470512364, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470512452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470512460, "dur":107075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656246470619599, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1656246470619646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470619653, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1656246470621716, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1656246470621862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470621867, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1656246470623244, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1656246470623278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470623282, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1656246470624046, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1656246470624099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656246470624105, "dur":2073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/eiseb/Desktop/Build test, non-pixelate/PJV_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1656246470626222, "dur":154297, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656246470784540, "dur":1752, "ph":"X", "name": "ProfilerWriteOutput" }
+>>>>>>> Stashed changes
 ,
