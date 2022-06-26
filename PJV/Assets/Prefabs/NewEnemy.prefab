@@ -335,9 +335,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  damage: 20
+  damage: 34
   EnemySource: {fileID: 3702015771677529442}
-  HitSound: {fileID: 8300000, guid: f8b1a3d8cb1492b4d9bd586be51c5fa0, type: 3}
+  HitSound: {fileID: 8300000, guid: 506853db9cd7f2c4394fe4d93860cc26, type: 3}
 --- !u!114 &3702015771891846721
 MonoBehaviour:
   m_ObjectHideFlags: 0

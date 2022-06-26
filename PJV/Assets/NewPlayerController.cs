@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using EZCameraShake;
+using UnityEngine.UI;
 
 public class NewPlayerController : MonoBehaviour
 {
@@ -46,6 +47,10 @@ public class NewPlayerController : MonoBehaviour
     public float Hitcooldown;
     private float HitTime;
     private bool inHitCooldown;
+    public GameObject Heart01;
+    public GameObject Heart02;
+    public GameObject Heart03;
+    private int hitCount;
 
     public GameObject LoseMenu;
     public TextMeshProUGUI Timer;
@@ -59,6 +64,7 @@ public class NewPlayerController : MonoBehaviour
 
     void Start()
     {
+        hitCount = 0;
         MaxScale = HitPlane.transform.localScale;
         DisplayingHitPlane = false;
         PlayerAudio.clip = SmallSnore;
@@ -207,9 +213,24 @@ public class NewPlayerController : MonoBehaviour
                 PlayerAudio.clip = HitSound;
                 PlayerAudio.Play();
                 health -= collision.gameObject.GetComponent<EnemyScript>().damage;
-                Debug.Log(health);
+                hitCount++;
                 HitTime = Time.time;
                 inHitCooldown = true;
+
+                switch (hitCount)
+                {
+                    case 1:
+                        Heart03.SetActive(false);
+                        break;
+
+                    case 2:
+                        Heart02.SetActive(false);
+                        break;
+
+                    case 3:
+                        Heart01.SetActive(false);
+                        break;
+                }
             }
         }
     }
